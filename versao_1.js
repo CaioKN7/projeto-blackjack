@@ -30,6 +30,7 @@ if (iniciarJogo) {
    console.log(`Usuário - cartas: ${primeiraCartaUsuario.texto} ${segundaCartaUsuario.texto} - ${pontosUsuario}`);
    console.log(`Máquina - cartas: ${primeiraCartaMaquina.texto} ${segundaCartaMaquina.texto} - ${pontosMaquina}`);
 
+   
    if (pontosUsuario>pontosMaquina) {
       console.log('Parabéns, você ganhou! (Mas não acostuma -_-)');
       
